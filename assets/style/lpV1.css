@@ -92,13 +92,9 @@
 .main2{
     margin-top: 1044px;
     text-align: center;
-    display: flex;
     height: 759px;
-    flex-direction: column;
-    position: relative;
     font-family: 'Nunito Sans';
     background-color: rgba(71, 58, 209, 0.06);
-    margin-bottom: 80px;
 }
 
 .welcome{
@@ -111,23 +107,76 @@
 
 .card{
     margin-top: 70px; 
-    background: #FFFFFF; 
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05); 
-    border-radius: 25px; 
     display:flex; 
-    margin-left: 75px; 
-    margin-right: 75px;
+    margin-left: 150px; 
+    margin-right: 150px;
 }
 
 .main3{
     margin-top: 200px;
     text-align: left;
-    display: flex;
-    justify-content: space-between;
-    height: auto;
+    display: grid;
+    row-gap: 50px;
+    height: 535px;
     flex-direction: column;
     position: relative;
     font-family: 'Nunito Sans';
     margin-left: 75px;
     margin-right: 75px;
+}
+
+.main4{
+    background: rgba(71, 58, 209, 0.06);
+}
+
+.point{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    color: #3A3D42;
+}
+
+.pPoint{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+}
+
+.saying{
+    padding: 150px 120px 150px 120px;
+    text-align: center;
+}
+
+.review{
+    padding: 30px 40px 30px 50px;
+    margin-left: 20px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
+
+.nameRev{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.desc{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+}
+
+.footer{
+    color: #FFFFFF;
+    padding: 80px 150px 80px 150px;
+    background-color: #6379F4;
 }
