@@ -176,7 +176,7 @@
 }
 
 .footer{
-    color: #FFFFFF;
+    color: rgba(239, 239, 239, 0.75);
     padding: 80px 150px 80px 150px;
     background-color: #6379F4;
 }
