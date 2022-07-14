@@ -82,8 +82,6 @@
 .card{
     margin-top: 70px; 
     display:flex; 
-    margin-left: 150px; 
-    margin-right: 150px;
     text-align: center;
     align-items: center;
     justify-content: space-between;
@@ -99,6 +97,7 @@
 }
 
 .about{
+    padding: 120px 150px;
     text-align: center;
 }
 
