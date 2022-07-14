@@ -1,0 +1,130 @@
+.header{
+    padding: 63px 150px 60px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 40px;
+}
+
+.togle{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login{
+    background: #FFFFFF;
+    border: 2px solid #6379F4;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+    border-radius: 12px;
+    padding: 12px 37px 12px 36px;
+    width: 120px;
+    height: 48px;
+    box-sizing: border-box;
+}
+
+.signUp{
+    margin-left: 30px;
+    box-sizing: border-box;
+    width: 120px;
+    height: 48px;
+    padding: 12px 27px 12px 26px;
+    background: #6379F4;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+    border-radius: 12px;
+}
+
+.awesome{
+    padding: 15px 150px 100px 150px;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    position: relative;
+}
+
+.pict{
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+}
+
+.tryIt{
+    background: #6379F4;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+    border-radius: 12px;
+    box-sizing: border-box;
+    width: 173px;
+    height: 57px;
+    padding: 16px 40px 16px 40px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.cardItems{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    background: #FFFFFF; 
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05); 
+    border-radius: 25px;
+}
+
+.card{
+    margin-top: 70px; 
+    display:flex; 
+    margin-left: 150px; 
+    margin-right: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textCard{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    color: rgba(58, 61, 66, 0.9);
+}
+
+.about{
+    text-align: center;
+}
+
+.point{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    color: #3A3D42;
+}
+
+.pPoint{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+}
+
+.saying{
+    padding: 150px 120px 150px 120px;
+    text-align: center;
+}
+
+.footer{
+    color: rgba(239, 239, 239, 0.75);
+    padding: 80px 150px 80px 150px;
+    background-color: #6379F4;
+}
