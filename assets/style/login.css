@@ -25,6 +25,23 @@ h3{
     line-height: 33px;
 }
 
+.fw9-form{
+    background: unset;
+    border: unset;
+    border-bottom: 1.5px solid #6379F4;
+    border-radius: unset;
+    -webkit-border-radius: unset;
+    -moz-border-radius: unset;
+    -ms-border-radius: unset;
+    -o-border-radius: unset;
+}
+
+.fw9-form:focus{
+    box-shadow: unset;
+    outline: none;
+    border-color: unset;
+}
+
 .fw9-h1form{
     font-style: normal!important;
     font-weight: 700!important;
@@ -42,8 +59,6 @@ h3{
 }
 
 .fw9-button{
-    height: 57px;
-    width: 433px;
     border-radius: 12px;
     background: #6379F4;
     box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
