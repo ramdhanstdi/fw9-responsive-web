@@ -1,0 +1,54 @@
+body{
+    color: #3A3D42;
+    font-family: 'Nunito Sans';
+}
+
+.title-wallet{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 40px;
+    color: #6379F4;
+}
+
+.wrap-header{
+    align-items: center;
+    background-color: #ffffff;
+    height: 140px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.wrap-profile{
+    max-height: 55px
+}
+
+.name-profile{
+    font-style: normal;
+    font-weight: 700!important;
+    font-size: 18px!important;
+    line-height: 31px!important;
+    margin-bottom: 0px;
+    color: #3A3D42;
+}
+
+.num-profile{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #3A3D42;
+    margin-bottom: 0px;
+}
+
+.wrap-section{
+    background: #E5E5E5;
+}
+
+.wrap-dashboard{
+    height: 678px;
+}
