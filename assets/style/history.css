@@ -73,3 +73,80 @@ body{
 .wrap-log-out{
     margin-bottom: 0px;
 }
+
+.wrap-right-el{
+    height: 1000x;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
+
+.wrap-title-history{
+    margin: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3A3D42;
+}
+
+.wrap-time{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #7A7886;
+}
+
+.wrap-name{
+    margin-bottom: 9px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4D4B57;
+}
+
+.wrap-type{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #7A7886;
+    margin: unset;
+}
+
+.wrap-income{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1EC15F;
+}
+
+.wrap-expense{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FF5B37;
+}
+
+.wrap-footer{
+    color: #EFEFEF;
+    padding: 20px 0px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.wrap-footer p{
+    margin-bottom: 0px;
+}
+
+.wrap-end{
+    background: #6379F4;
+    height: auto;
+}
