@@ -6,8 +6,8 @@ body{
 .title-wallet{
     font-style: normal;
     font-weight: 700;
-    font-size: 29px;
-    line-height: 40px;
+    font-size: 1.813em;
+    line-height: 2.5em;
     color: #6379F4;
 }
 
@@ -27,11 +27,15 @@ body{
     max-height: 55px
 }
 
+.img-home-prof{
+    max-height: 55px;
+}
+
 .name-profile{
     font-style: normal;
     font-weight: 700!important;
-    font-size: 18px!important;
-    line-height: 31px!important;
+    font-size: 1.125rem!important;
+    line-height: 1.938em!important;
     margin-bottom: 0px;
     color: #3A3D42;
 }
@@ -46,9 +50,201 @@ body{
 }
 
 .wrap-section{
-    background: #E5E5E5;
+    color: #3A3D42;
+    height: 100%;
 }
 
 .wrap-dashboard{
-    height: 678px;
+    color: #3A3D42CC;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 31px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    height: 100%;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.wrap-log-out{
+    margin-bottom: 0px;
+}
+
+.wrap-balance{
+    color: #ffffff;
+    border-radius: 20px;
+    background-color: #6379F4;
+    height: 11.875rem;
+    width: 100%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.wrap-info{
+    margin: 1.875rem;
+}
+
+.wrap-info h1{
+    margin-bottom: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3.438rem;
+}
+
+.wrap-info p{
+    margin-bottom: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.938rem;
+    color: #E0E0E0;
+}
+
+.wrap-transfer{
+    padding: 0.813rem;
+    width: 10.125rem;
+    height: 3.563rem;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.wrap-topup{
+    padding: 0.813rem;
+    width: 10.125rem;
+    height: 3.563rem;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.wrap-i{
+    color: #B5B0ED;
+}
+
+.wrap-grap{
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
+
+/* .wrap-income{
+    margin: 30px 30px 0px 30px;
+}
+
+.wrap-expense{
+    margin: 30px 30px 0px 30px;
+} */
+
+.wrap-income-i{
+    color: #1EC15F;
+}
+
+.wrap-expense-i{
+    color: #FF5B37;
+}
+
+.wrap-grap-p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #6A6A6A;
+}
+
+.wrap-grap-balance{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3A3D42;
+}
+
+.wrap-img{
+    height: 268px;
+}
+
+.wrap-history{
+    padding: 1.875rem;
+    height: 100%;
+    padding-bottom: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
+
+.history-name{
+    margin-bottom: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4D4B57;
+}
+
+.history-num{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #7A7886;
+}
+
+.history-list{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3A3D42;
+}
+
+.see-all{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #6379F4;
+}
+
+.history-income{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1EC15F;
+}
+
+.history-espense{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FF5B37;
+}
+
+.wrap-footer{
+    color: #EFEFEF;
+    padding: 20px 0px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.wrap-footer p{
+    margin-bottom: 0px;
+}
+
+.wrap-end{
+    background: #6379F4;
+    height: auto;
 }
