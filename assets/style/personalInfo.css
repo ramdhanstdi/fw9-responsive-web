@@ -1,0 +1,140 @@
+body{
+    color: #3A3D42;
+    font-family: 'Nunito Sans';
+}
+
+.title-wallet{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.813em;
+    line-height: 2.5em;
+    color: #6379F4;
+}
+
+.wrap-header{
+    align-items: center;
+    background-color: #ffffff;
+    height: 140px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.wrap-profile{
+    max-height: 55px
+}
+
+.img-home-prof{
+    max-height: 55px;
+}
+
+.name-profile{
+    font-style: normal;
+    font-weight: 700!important;
+    font-size: 1.125rem!important;
+    line-height: 1.938em!important;
+    margin-bottom: 0px;
+    color: #3A3D42;
+}
+
+.num-profile{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #3A3D42;
+    margin-bottom: 0px;
+}
+
+.wrap-section{
+    color: #3A3D42;
+    height: 100%;
+}
+
+.wrap-dashboard{
+    color: #3A3D42CC;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 31px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    height: 100%;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.wrap-log-out{
+    margin-bottom: 0px;
+}
+
+.wrap-right-el{
+    height: 1000x;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
+
+.wrap-title{
+    margin: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3A3D42;
+}
+
+.wrap-name{
+    margin: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #514F5B;
+}
+
+.wrap-type{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;        
+    color: #7A7886;
+}
+
+.wrap-footer{
+    color: #EFEFEF;
+    padding: 20px 0px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.wrap-footer p{
+    margin-bottom: 0px;
+}
+
+.wrap-end{
+    background: #6379F4;
+    height: auto;
+}
+
+.wrap-receiver{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.wrap-manage{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #6379F4;
+}
