@@ -255,3 +255,43 @@ body{
     line-height: 30px;
     color: rgba(58, 61, 66, 0.6);
 }
+
+.wrap-nav-dashboard:hover{
+    color: #6379F4;
+}
+
+@media (max-width: 767.98px) {
+    .wrap-nav-dashboard{
+        font-size: 16px;
+    }
+
+    .wrap-info h1 {
+        margin-bottom: 0px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 3.438rem;
+    }
+
+    .wrap-topup {
+        padding: 0.813rem;
+        width: 5.125rem;
+        height: 3.563rem;
+        background: rgba(255, 255, 255, 0.2);
+        border: 2px solid #FFFFFF;
+        border-radius: 10px;
+    }
+
+    .wrap-transfer {
+        padding: 0.813rem;
+        width: 5.125rem;
+        height: 3.563rem;
+        background: rgba(255, 255, 255, 0.2);
+        border: 2px solid #FFFFFF;
+        border-radius: 10px;
+    }
+
+    .img-home-prof{
+        max-height: 40px;
+    }
+}
