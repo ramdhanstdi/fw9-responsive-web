@@ -50,12 +50,33 @@
     justify-content: space-between;
     height: auto;
     position: relative;
+    background: rgba(71, 58, 209, 0.06);
 }
 
 .pict{
     justify-content: flex-start;
     width: 100%;
     height: auto;
+}
+
+.awesome-title{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 93px;
+}
+
+.awesome-title-span{
+    color: #6379F4;
+}
+
+.awesome-desc{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
 }
 
 .tryIt{
@@ -68,6 +89,43 @@
     padding: 16px 40px 16px 40px;
     color: #FFFFFF;
     text-align: center;
+    font-family: 'Nunito Sans'; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.img-corp{
+    padding: 90px 150px 90px 150px; 
+    background: rgba(71, 58, 209, 0.06);
+}
+
+.img-display{
+    width: 100%;
+}
+
+.about-title{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 93px;
+}
+
+.about-desc{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px; 
+    color: #3A3D42;
+}
+
+.awesome-list{
+    text-align: left;
+    margin-left: -450px;
+    margin-top:50px;
 }
 
 .cardItems{
@@ -77,6 +135,14 @@
     background: #FFFFFF; 
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05); 
     border-radius: 25px;
+}
+
+.card-title{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
 }
 
 .card{
@@ -126,4 +192,85 @@
     color: rgba(239, 239, 239, 0.75);
     padding: 80px 150px 80px 150px;
     background-color: #6379F4;
+}
+
+@media (max-width: 767.98px) {
+    .footer{
+        color: rgba(239, 239, 239, 0.75);
+        padding: 20px 50px 20px 50px;
+        background-color: #6379F4;
+    }
+
+    .awesome-list{
+        text-align: left;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .header{
+        padding: 33px 50px 30px 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .togle{
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .signUp{
+        margin-left: 0px;
+        box-sizing: border-box;
+        width: 120px;
+        height: 48px;
+        padding: 12px 27px 12px 26px;
+        background: #6379F4;
+        box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+        border-radius: 12px;
+    }
+
+    .pict{
+        display: none;
+    }
+
+    .awesome{
+        padding: 15px 50px 100px 50px;
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        position: relative;
+    }
+
+    .awesome-title{
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 37px;
+    }
+
+    .img-corp{
+        padding: 30px 50px 30px 50px; 
+        background: rgba(71, 58, 209, 0.06);
+    }
+
+    .about{
+        padding: 40px 50px;
+        text-align: center;
+    }
+
+    .awesome{
+        padding: 15px 50px 30px 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+        position: relative;
+        background: rgba(71, 58, 209, 0.06);
+    }
 }
