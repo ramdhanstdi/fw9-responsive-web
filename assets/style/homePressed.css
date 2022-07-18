@@ -24,6 +24,7 @@ body{
 }
 
 .wrap-profile{
+    margin-right: 0px !important;
     max-height: 55px
 }
 

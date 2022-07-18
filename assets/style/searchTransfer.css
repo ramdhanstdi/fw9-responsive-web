@@ -166,7 +166,12 @@ body{
 }
 
 .wrap-nav-dashboard:hover{
-    color: #6379F4;
+    color: #6379F4 !important;
+}
+
+a {
+    color: #3A3D42CC!important;
+    text-decoration: unset !important;
 }
 
 @media (max-width: 767.98px) {

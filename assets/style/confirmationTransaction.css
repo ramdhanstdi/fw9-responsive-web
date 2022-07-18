@@ -209,6 +209,11 @@ body{
     color: #3A3D42;
 }
 
+a {
+    color: #3A3D42CC!important;
+    text-decoration: unset !important;
+}
+
 .wrap-nav-dashboard:hover{
     color: #6379F4;
 }

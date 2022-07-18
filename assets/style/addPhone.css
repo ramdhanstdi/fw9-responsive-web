@@ -75,7 +75,7 @@ body{
 }
 
 .wrap-right-el{
-    height: 1000x;
+    height: 1000px;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
     border-radius: 25px;
 }
@@ -153,6 +153,11 @@ body{
 
 .wrap-nav-dashboard:hover{
     color: #6379F4;
+}
+
+a {
+    color: #3A3D42CC!important;
+    text-decoration: unset !important;
 }
 
 @media (max-width: 767.98px) {
