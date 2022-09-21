@@ -8,5 +8,9 @@
 
 This is Static page of STD iWallet, built with html,css and bootstrap 5
 
+## Built with 
+![Bootstrap](https://img.shields.io/badge/Bootstrap-v5.2.0-purple?style=flat)
+
+
 ## Link deploy
 https://stdiwallet-static.netlify.app/
