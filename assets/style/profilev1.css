@@ -12,6 +12,7 @@ body{
 }
 
 .wrap-header{
+    margin: 0px !important;
     align-items: center;
     background-color: #ffffff;
     height: 140px;

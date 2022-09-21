@@ -17,45 +17,96 @@
   <body>
     <header class="d-flex justify-content-between mw-100 wrap-header row">
       <div class="col-12 col-md-7">
-          <div class="px-4 px-md-5 mx-0 mx-md-5">
+          <div class="px-3 px-md-5 mx-0 mx-md-5">
               <span class="title-wallet">STD iWallet</span>
           </div>
       </div>
-      <div class="col-12 mx-3 mx-md-0 col-md-5">
+      <div class="col-12 col-md-5">
           <div class="d-flex justify-content-between justify-content-md-end align-items-center wrap-profile px-2 px-md-3 mx-2 mx-md-3">
               <img src="/assets/image/Rectangle 25.png" class="img-home-prof img-fluid" alt="profile">
               <div class="d-flex-column justify-content-center mx-3">
                   <p class="name-profile">Robert Chandler</p>
                   <p class="num-profile">+62 8139 3877 7946</p>
+              </div><div class="dropdown">
+                <button class="btn btn-secondary dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="wrap-nav-dashboard" data-feather="bell"></i>
+                </button>
+                <ul class="dropdown-menu wrap-menu">
+                  <p class="wrap-time mb-4">Today</p>
+                  <div class="d-flex-column wrap-receiver p-3 m-1">
+                      <div class="d-flex justify-content-between align-items-center">
+                          <div class="d-flex align-items-center">
+                              <i data-feather="arrow-down" class="money-in"></i>
+                              <div class="d-flex-column justify-content-center ms-3">
+                                  <p class="wrap-name">Transfered from Joshua Lee</p>
+                                  <p  class="wrap-amount">Rp220.000</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="d-flex wrap-receiver p-3 m-1">
+                      <div class="d-flex justify-content-between align-items-center">
+                          <div class="d-flex align-items-center">
+                              <i data-feather="arrow-up" class="money-out"></i>
+                              <div class="d-flex-column justify-content-center ms-3">
+                                  <p class="wrap-name">Netflix subscription</p>
+                                  <p  class="wrap-amount">Rp149.000</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <p class="wrap-time my-4">This Week</p>
+                  <div class="d-flex-column wrap-receiver p-3 m-1">
+                      <div class="d-flex justify-content-between align-items-center">
+                          <div class="d-flex align-items-center">
+                              <i data-feather="arrow-up" class="money-out"></i>
+                              <div class="d-flex-column justify-content-center ms-3">
+                                  <p class="wrap-name">Transfer to Jessica Lee</p>
+                                  <p  class="wrap-amount">Rp100.000</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="d-flex-column wrap-receiver p-3 m-1">
+                      <div class="d-flex justify-content-between align-items-center">
+                          <div class="d-flex align-items-center">
+                              <i data-feather="arrow-down" class="money-in"></i>
+                              <div class="d-flex-column justify-content-center ms-3">
+                                  <p class="wrap-name">Top up from BNI E-Banking</p>
+                                  <p  class="wrap-amount">Rp300.000</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </ul>
               </div>
-              <i class="wrap-nav-dashboard" data-feather="bell"></i>
           </div>
       </div>
   </header>
     <section class="wrap-section ">
-      <div class="row px-2 px-md-5 mx-2 mx-md-5">
+      <div class="row px-2 px-md-5 mx-md-5">
         <div class="col-12 col-md-3 d-flex flex-column">
           <div class="d-flex flex-column wrap-dashboard mt-3 ps-3 ps-md-4 pt-3 pt-md-5">
             <div class="flex-fill d-flex flex-column gap-2 gap-md-4">
-              <div class="d-flex wrap-nav-dashboard">
+              <div class="d-flex align-items-center wrap-nav-dashboard">
                 <i data-feather="grid"></i>
                 <a href="/homePressed.html" class="ms-2 ms-md-3">Dasboard</a>
               </div>
-              <div class="d-flex wrap-nav-dashboard">
+              <div class="d-flex align-items-center wrap-nav-dashboard">
                 <i data-feather="arrow-up"></i>
                 <a href="searchTransfer.html" class="ms-2 ms-md-3">Transfer</a>
               </div>
-              <div class="d-flex wrap-nav-dashboard">
+              <div class="d-flex align-items-center wrap-nav-dashboard">
                 <i data-feather="plus"></i>
                 <a href="topUp.html" class="ms-2 ms-md-3">Top Up</a>
               </div>
-              <div class="d-flex wrap-nav-dashboard">
+              <div class="d-flex align-items-center wrap-nav-dashboard">
                 <i data-feather="user"></i>
                 <a href="profilev1.html" class="ms-2 ms-md-3">Profile</a>
               </div>
             </div>
             <div class="d-flex flex-column gap-3">
-              <div class="d-flex wrap-log-out wrap-nav-dashboard py-md-3 my-2">
+              <div class="d-flex wrap-log-out wrap-nav-dashboard align-items-center py-md-3 my-2">
                 <i data-feather="log-out"></i>
                 <a href="index.html" class="ms-2 ms-md-3">Log out</a>
               </div>
@@ -73,20 +124,20 @@
                     <p>+62 813-9387-7946</p>
                   </div>
                   <div>
-                    <div class="d-flex justify-content-evenly wrap-transfer mt-4 mx-3 mx-md-4">
-                      <i class="wrap-i" data-feather="arrow-up"></i>
-                      <a class="link-balance" href="searchTransfer.html">Transfer</a>
+                    <div class="d-flex justify-content-around align-items-center wrap-transfer mt-4 mx-3 mx-md-4">
+                      <i class="wrap-i d-none d-md-flex" data-feather="arrow-up"></i>
+                      <a class="link-balance text-center" href="searchTransfer.html">Transfer</a>
                     </div>
-                    <div class="d-flex justify-content-evenly wrap-topup mt-4 mx-3 mx-md-4">
-                      <i class="wrap-i" data-feather="plus"></i>
-                      <a class="link-balance" href="topUp.html">TopUp</a>
+                    <div class="d-flex justify-content-around align-items-center wrap-topup mt-4 mx-3 mx-md-4">
+                      <i class="wrap-i d-none d-md-flex" data-feather="plus"></i>
+                      <a class="link-balance text-center" href="topUp.html">TopUp</a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-7">
-              <div class="wrap-grap mt-3">
+            <div class="col-12 col-md-7 mt-3">
+              <div class="wrap-grap">
                 <div class="d-flex justify-content-between">
                   <div class="wrap-income mt-3 mt-md-4 mx-3 mx-md-4">
                     <i class="wrap-income-i" data-feather="arrow-down"></i>
@@ -104,8 +155,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-5">
-              <div class="d-flex-column wrap-history mt-4 mt-md-3">
+            <div class="col-12 col-md-5 mt-3">
+              <div class="d-flex-column wrap-history">
                 <div class="d-flex justify-content-between">
                   <div>
                     <p class="history-list">Transaction History</p>
